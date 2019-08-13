@@ -7,7 +7,7 @@ import(
 func identicalIfConditions(cond bool)  {
 	if cond {
 	  fmt.Printf("Condition is True")
-	} else if cond {
+	} else  {
 	  fmt.Printf("Condition is False")
 	}
 }
