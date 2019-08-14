@@ -8,3 +8,10 @@ func TestSum(t *testing.T) {
        t.Errorf("Sum was incorrect, got: %d, want: %d.", total, 10)
     }
 }
+
+func TestSumMain(t *testing.T) {
+    total := main()
+    if total != 10 {
+       t.Errorf("Sum main was incorrect, got: %d, want: %d.", total, 10)
+    }
+}
